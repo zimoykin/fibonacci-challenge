@@ -1,0 +1,1 @@
+> go run main.go && java main.java && swift main.swift && node main.js
