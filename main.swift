@@ -5,9 +5,10 @@ func main () {
     let start = NSDate()
     let fibonacci = fib(44)
     let end = NSDate()
-     print("swift")
-    print(fibonacci)
-    print(end.timeIntervalSince1970 - start.timeIntervalSince1970)
+    print("swift")
+    print("fibonacci: " + String(fibonacci))
+    print( String(format: "%.02f", end.timeIntervalSince1970 - start.timeIntervalSince1970) )
+    print("---")
     
 }
 func fib(_ n: Int) -> Int {

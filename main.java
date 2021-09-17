@@ -6,8 +6,10 @@ public class main {
         long start = System.currentTimeMillis();
         Integer fibonacci = main.fib(44);
         long finish = System.currentTimeMillis();
+        Double elapsed = (finish - start) / 1000.0;
         System.out.println("java");
         System.out.println(fibonacci);
-        System.out.println((finish - start));
+        System.out.println(elapsed);
+        System.out.println("---");
     };
 }

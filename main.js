@@ -5,3 +5,4 @@ console.log("node");
 console.time('fib')
 console.log(fib(44));
 console.timeEnd('fib')
+console.log('---')

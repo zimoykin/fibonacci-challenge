@@ -1,1 +1,1 @@
-> go run main.go && java main.java && swift main.swift && node main.js
+> go run main.go && java main.java && swift main.swift && node main.js && rustc main.rs && ./main
